@@ -32,7 +32,7 @@ body {
     line-height: 1.6;
 }
 
-/* --- Header & Nav --- */
+
 header {
     background-color: var(--dark);
     border-bottom: 2px solid var(--yellow);
@@ -89,7 +89,7 @@ nav {
     color: var(--yellow);
 }
 
-/* --- Hero --- */
+
 .hero {
     background: linear-gradient(135deg, #0a0a0a 0%, #1a1500 50%, #0a0a0a 100%);
     border-bottom: 1px solid var(--dark3);
@@ -169,7 +169,7 @@ nav {
     color: var(--gray);
 }
 
-/* --- Sections --- */
+
 main section {
     max-width: 1100px;
     margin: 0 auto;
@@ -189,7 +189,7 @@ h2 {
     text-transform: uppercase;
 }
 
-/* --- About --- */
+
 .about p {
     font-size: 1rem;
     color: #cccccc;
@@ -201,7 +201,7 @@ h2 {
     color: var(--yellow);
 }
 
-/* --- Achievements --- */
+
 .achievements-list {
     list-style: none;
     display: flex;
@@ -242,7 +242,7 @@ h2 {
     color: var(--gray);
 }
 
-/* --- Roster --- */
+
 .players-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
@@ -327,7 +327,7 @@ h2 {
     color: var(--white);
 }
 
-/* --- Sub-pages --- */
+
 .page-section {
     max-width: 1100px;
     margin: 0 auto;
@@ -340,7 +340,7 @@ h2 {
     font-size: 1rem;
 }
 
-/* Gallery */
+
 .gallery-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -372,7 +372,6 @@ h2 {
     color: var(--gray);
 }
 
-/* Contacts */
 .contact-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
@@ -415,7 +414,7 @@ h2 {
     color: #cccccc;
 }
 
-/* --- Footer --- */
+
 footer {
     background: var(--dark);
     border-top: 2px solid var(--yellow);
@@ -436,7 +435,7 @@ footer a:hover {
     text-decoration: underline;
 }
 
-/* --- Responsive --- */
+
 @media (max-width: 768px) {
     .hero h1 {
         font-size: 3rem;
